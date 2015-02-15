@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AED718FB1A901F5A0020867B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AED718FA1A901F5A0020867B /* main.m */; };
+		AED718FE1A901F5A0020867B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AED718FD1A901F5A0020867B /* AppDelegate.m */; };
+		AED719011A901F5A0020867B /* AU_Coins.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AED718FF1A901F5A0020867B /* AU_Coins.xcdatamodeld */; };
+		AED719041A901F5A0020867B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AED719031A901F5A0020867B /* ViewController.m */; };
+		AED719071A901F5A0020867B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED719051A901F5A0020867B /* Main.storyboard */; };
+		AED719091A901F5A0020867B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AED719081A901F5A0020867B /* Images.xcassets */; };
+		AED7190C1A901F5A0020867B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AED7190A1A901F5A0020867B /* LaunchScreen.xib */; };
+		AED719181A901F5A0020867B /* AU_CoinsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AED719171A901F5A0020867B /* AU_CoinsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AED719121A901F5A0020867B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AED718ED1A901F5A0020867B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AED718F41A901F5A0020867B;
+			remoteInfo = "AU Coins";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AED718F51A901F5A0020867B /* AU Coins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AU Coins.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED718F91A901F5A0020867B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AED718FA1A901F5A0020867B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AED718FC1A901F5A0020867B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AED718FD1A901F5A0020867B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AED719001A901F5A0020867B /* AU_Coins.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AU_Coins.xcdatamodel; sourceTree = "<group>"; };
+		AED719021A901F5A0020867B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AED719031A901F5A0020867B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AED719061A901F5A0020867B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AED719081A901F5A0020867B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AED7190B1A901F5A0020867B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AED719111A901F5A0020867B /* AU CoinsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AU CoinsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED719161A901F5A0020867B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AED719171A901F5A0020867B /* AU_CoinsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AU_CoinsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AED718F21A901F5A0020867B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED7190E1A901F5A0020867B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AED718EC1A901F5A0020867B = {
+			isa = PBXGroup;
+			children = (
+				AED718F71A901F5A0020867B /* AU Coins */,
+				AED719141A901F5A0020867B /* AU CoinsTests */,
+				AED718F61A901F5A0020867B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AED718F61A901F5A0020867B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AED718F51A901F5A0020867B /* AU Coins.app */,
+				AED719111A901F5A0020867B /* AU CoinsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AED718F71A901F5A0020867B /* AU Coins */ = {
+			isa = PBXGroup;
+			children = (
+				AED718FC1A901F5A0020867B /* AppDelegate.h */,
+				AED718FD1A901F5A0020867B /* AppDelegate.m */,
+				AED719021A901F5A0020867B /* ViewController.h */,
+				AED719031A901F5A0020867B /* ViewController.m */,
+				AED719051A901F5A0020867B /* Main.storyboard */,
+				AED719081A901F5A0020867B /* Images.xcassets */,
+				AED7190A1A901F5A0020867B /* LaunchScreen.xib */,
+				AED718FF1A901F5A0020867B /* AU_Coins.xcdatamodeld */,
+				AED718F81A901F5A0020867B /* Supporting Files */,
+			);
+			path = "AU Coins";
+			sourceTree = "<group>";
+		};
+		AED718F81A901F5A0020867B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AED718F91A901F5A0020867B /* Info.plist */,
+				AED718FA1A901F5A0020867B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AED719141A901F5A0020867B /* AU CoinsTests */ = {
+			isa = PBXGroup;
+			children = (
+				AED719171A901F5A0020867B /* AU_CoinsTests.m */,
+				AED719151A901F5A0020867B /* Supporting Files */,
+			);
+			path = "AU CoinsTests";
+			sourceTree = "<group>";
+		};
+		AED719151A901F5A0020867B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AED719161A901F5A0020867B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AED718F41A901F5A0020867B /* AU Coins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AED7191B1A901F5A0020867B /* Build configuration list for PBXNativeTarget "AU Coins" */;
+			buildPhases = (
+				AED718F11A901F5A0020867B /* Sources */,
+				AED718F21A901F5A0020867B /* Frameworks */,
+				AED718F31A901F5A0020867B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AU Coins";
+			productName = "AU Coins";
+			productReference = AED718F51A901F5A0020867B /* AU Coins.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AED719101A901F5A0020867B /* AU CoinsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AED7191E1A901F5A0020867B /* Build configuration list for PBXNativeTarget "AU CoinsTests" */;
+			buildPhases = (
+				AED7190D1A901F5A0020867B /* Sources */,
+				AED7190E1A901F5A0020867B /* Frameworks */,
+				AED7190F1A901F5A0020867B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AED719131A901F5A0020867B /* PBXTargetDependency */,
+			);
+			name = "AU CoinsTests";
+			productName = "AU CoinsTests";
+			productReference = AED719111A901F5A0020867B /* AU CoinsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AED718ED1A901F5A0020867B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Yin Hua";
+				TargetAttributes = {
+					AED718F41A901F5A0020867B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					AED719101A901F5A0020867B = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = AED718F41A901F5A0020867B;
+					};
+				};
+			};
+			buildConfigurationList = AED718F01A901F5A0020867B /* Build configuration list for PBXProject "AU Coins" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AED718EC1A901F5A0020867B;
+			productRefGroup = AED718F61A901F5A0020867B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AED718F41A901F5A0020867B /* AU Coins */,
+				AED719101A901F5A0020867B /* AU CoinsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AED718F31A901F5A0020867B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED719071A901F5A0020867B /* Main.storyboard in Resources */,
+				AED7190C1A901F5A0020867B /* LaunchScreen.xib in Resources */,
+				AED719091A901F5A0020867B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED7190F1A901F5A0020867B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AED718F11A901F5A0020867B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED719011A901F5A0020867B /* AU_Coins.xcdatamodeld in Sources */,
+				AED718FE1A901F5A0020867B /* AppDelegate.m in Sources */,
+				AED719041A901F5A0020867B /* ViewController.m in Sources */,
+				AED718FB1A901F5A0020867B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED7190D1A901F5A0020867B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED719181A901F5A0020867B /* AU_CoinsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AED719131A901F5A0020867B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AED718F41A901F5A0020867B /* AU Coins */;
+			targetProxy = AED719121A901F5A0020867B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AED719051A901F5A0020867B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AED719061A901F5A0020867B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AED7190A1A901F5A0020867B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AED7190B1A901F5A0020867B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AED719191A901F5A0020867B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AED7191A1A901F5A0020867B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AED7191C1A901F5A0020867B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AU Coins/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AED7191D1A901F5A0020867B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AU Coins/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AED7191F1A901F5A0020867B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AU CoinsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AU Coins.app/AU Coins";
+			};
+			name = Debug;
+		};
+		AED719201A901F5A0020867B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AU CoinsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AU Coins.app/AU Coins";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AED718F01A901F5A0020867B /* Build configuration list for PBXProject "AU Coins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AED719191A901F5A0020867B /* Debug */,
+				AED7191A1A901F5A0020867B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AED7191B1A901F5A0020867B /* Build configuration list for PBXNativeTarget "AU Coins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AED7191C1A901F5A0020867B /* Debug */,
+				AED7191D1A901F5A0020867B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AED7191E1A901F5A0020867B /* Build configuration list for PBXNativeTarget "AU CoinsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AED7191F1A901F5A0020867B /* Debug */,
+				AED719201A901F5A0020867B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AED718FF1A901F5A0020867B /* AU_Coins.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AED719001A901F5A0020867B /* AU_Coins.xcdatamodel */,
+			);
+			currentVersion = AED719001A901F5A0020867B /* AU_Coins.xcdatamodel */;
+			path = AU_Coins.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AED718ED1A901F5A0020867B /* Project object */;
+}
