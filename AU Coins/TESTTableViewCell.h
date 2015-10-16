@@ -10,4 +10,8 @@
 
 @interface TESTTableViewCell : UITableViewCell
 
+
+@property (strong, nonatomic) NSString * abjcjkj;
+
+
 @end
