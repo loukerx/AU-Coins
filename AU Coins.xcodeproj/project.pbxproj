@@ -10,6 +10,7 @@
 		AE24A8521A970F5A009C7238 /* CoinDetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE24A8511A970F5A009C7238 /* CoinDetailsTableViewController.m */; };
 		AE5B7F301AA2B82700E0682B /* MyData.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5B7F2F1AA2B82700E0682B /* MyData.m */; };
 		AE7A8F281BD0A94700BD114A /* TESTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7A8F271BD0A94700BD114A /* TESTTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		AE7A8F2B1BD0A9B300BD114A /* AboutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7A8F2A1BD0A9B300BD114A /* AboutTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		AEB932C31AAD58B300270937 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB932C11AAD58B300270937 /* MenuViewController.m */; };
 		AEB932C41AAD58B300270937 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEB932C21AAD58B300270937 /* MenuViewController.xib */; };
 		AEB932C71AAD65E300270937 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB932C61AAD65E300270937 /* QuartzCore.framework */; };
@@ -141,6 +142,8 @@
 		AE5B7F2F1AA2B82700E0682B /* MyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyData.m; sourceTree = "<group>"; };
 		AE7A8F261BD0A94700BD114A /* TESTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TESTTableViewCell.h; sourceTree = "<group>"; };
 		AE7A8F271BD0A94700BD114A /* TESTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TESTTableViewCell.m; sourceTree = "<group>"; };
+		AE7A8F291BD0A9B300BD114A /* AboutTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutTableViewController.h; sourceTree = "<group>"; };
+		AE7A8F2A1BD0A9B300BD114A /* AboutTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutTableViewController.m; sourceTree = "<group>"; };
 		AEB932C01AAD58B300270937 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		AEB932C11AAD58B300270937 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		AEB932C21AAD58B300270937 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
@@ -294,6 +297,17 @@
 			name = Xib;
 			sourceTree = "<group>";
 		};
+		AE7A8F2C1BD0A9BA00BD114A /* Test Github */ = {
+			isa = PBXGroup;
+			children = (
+				AE7A8F291BD0A9B300BD114A /* AboutTableViewController.h */,
+				AE7A8F2A1BD0A9B300BD114A /* AboutTableViewController.m */,
+				AE7A8F261BD0A94700BD114A /* TESTTableViewCell.h */,
+				AE7A8F271BD0A94700BD114A /* TESTTableViewCell.m */,
+			);
+			name = "Test Github";
+			sourceTree = "<group>";
+		};
 		AEB932C51AAD58BF00270937 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
@@ -322,8 +336,6 @@
 				AED719241A9035950020867B /* MyCollectionTableViewController.m */,
 				AEBE275F1AAA91C600B7428B /* CoinImageViewController.h */,
 				AEBE27601AAA91C600B7428B /* CoinImageViewController.m */,
-				AE7A8F261BD0A94700BD114A /* TESTTableViewCell.h */,
-				AE7A8F271BD0A94700BD114A /* TESTTableViewCell.m */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -493,6 +505,7 @@
 				AE5B7F2E1AA2B82700E0682B /* MyData.h */,
 				AE5B7F2F1AA2B82700E0682B /* MyData.m */,
 				AEBE275B1AAA7EF200B7428B /* Main */,
+				AE7A8F2C1BD0A9BA00BD114A /* Test Github */,
 				AEB932C51AAD58BF00270937 /* Menu */,
 				AE5B7F311AA2B9BC00E0682B /* Xib */,
 				AED719081A901F5A0020867B /* Images.xcassets */,
@@ -733,6 +746,7 @@
 				AEB932C31AAD58B300270937 /* MenuViewController.m in Sources */,
 				AED718FE1A901F5A0020867B /* AppDelegate.m in Sources */,
 				AE5B7F301AA2B82700E0682B /* MyData.m in Sources */,
+				AE7A8F2B1BD0A9B300BD114A /* AboutTableViewController.m in Sources */,
 				AED718FB1A901F5A0020867B /* main.m in Sources */,
 				AED719281A90361F0020867B /* CoinsListTableViewController.m in Sources */,
 				AE24A8521A970F5A009C7238 /* CoinDetailsTableViewController.m in Sources */,
