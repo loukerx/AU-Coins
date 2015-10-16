@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MyCollectionTableViewController.h
 //  AU Coins
 //
 //  Created by Yin Hua on 15/02/2015.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MyCollectionTableViewController : UITableViewController
 
 @end
-

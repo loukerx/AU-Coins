@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MyData.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    
+//    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+//    if (![defaults objectForKey:@"firstRun"])
+//    {
+//        [defaults setObject:[NSDate date] forKey:@"firstRun"];
+//        //import database.
+//        MyData *md = [[MyData alloc]init];
+//        [md initialClass];
+//    }else{
+//        [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"firstRun"];
+//        NSLog(@"This is not the first run.");
+//    }
     return YES;
 }
 

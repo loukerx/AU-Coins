@@ -7,14 +7,120 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE24A8521A970F5A009C7238 /* CoinDetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE24A8511A970F5A009C7238 /* CoinDetailsTableViewController.m */; };
+		AE5B7F301AA2B82700E0682B /* MyData.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5B7F2F1AA2B82700E0682B /* MyData.m */; };
+		AEB932C31AAD58B300270937 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB932C11AAD58B300270937 /* MenuViewController.m */; };
+		AEB932C41AAD58B300270937 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEB932C21AAD58B300270937 /* MenuViewController.xib */; };
+		AEB932C71AAD65E300270937 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB932C61AAD65E300270937 /* QuartzCore.framework */; };
+		AEBE27611AAA91C600B7428B /* CoinImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBE27601AAA91C600B7428B /* CoinImageViewController.m */; };
+		AEC5E6531A916BBC004C9748 /* 20c_1995_unitednations.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E5EE1A916BBC004C9748 /* 20c_1995_unitednations.jpg */; };
+		AEC5E6541A916BBC004C9748 /* 20c_2001_ACT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E5EF1A916BBC004C9748 /* 20c_2001_ACT.jpg */; };
+		AEC5E6551A916BBC004C9748 /* 20c_2001_bradman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E5F01A916BBC004C9748 /* 20c_2001_bradman.jpg */; };
+		AEC5E6561A916BBC004C9748 /* 20c_2001_NI.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E5F11A916BBC004C9748 /* 20c_2001_NI.jpg */; };
+		AEC5E6571A916BBC004C9748 /* 20c_2001_NSW.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E5F21A916BBC004C9748 /* 20c_2001_NSW.jpg */; };
+		AEC5E6581A916BBC004C9748 /* 20c_2001_NT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E5F31A916BBC004C9748 /* 20c_2001_NT.jpg */; };
+		AEC5E6591A916BBC004C9748 /* 20c_2001_QLD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E5F41A916BBC004C9748 /* 20c_2001_QLD.jpg */; };
+		AEC5E65A1A916BBC004C9748 /* 20c_2001_SA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E5F51A916BBC004C9748 /* 20c_2001_SA.jpg */; };
+		AEC5E65B1A916BBC004C9748 /* 20c_2001_TAS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E5F61A916BBC004C9748 /* 20c_2001_TAS.jpg */; };
+		AEC5E65C1A916BBC004C9748 /* 20c_2001_VIC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E5F71A916BBC004C9748 /* 20c_2001_VIC.jpg */; };
+		AEC5E65D1A916BBC004C9748 /* 20c_2001_WA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E5F81A916BBC004C9748 /* 20c_2001_WA.jpg */; };
+		AEC5E65E1A916BBC004C9748 /* 20c_2003_volunteers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E5F91A916BBC004C9748 /* 20c_2003_volunteers.jpg */; };
+		AEC5E65F1A916BBC004C9748 /* 20c_2005_WWII.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E5FA1A916BBC004C9748 /* 20c_2005_WWII.jpg */; };
+		AEC5E6601A916BBC004C9748 /* 20c_2010_ATO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E5FB1A916BBC004C9748 /* 20c_2010_ATO.jpg */; };
+		AEC5E6611A916BBC004C9748 /* 20c_2011_ Royal.JPG in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E5FC1A916BBC004C9748 /* 20c_2011_ Royal.JPG */; };
+		AEC5E6621A916BBC004C9748 /* 20c_2011_intyr_volunteers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E5FD1A916BBC004C9748 /* 20c_2011_intyr_volunteers.jpg */; };
+		AEC5E6631A916BBC004C9748 /* 20c_2011_Women.JPG in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E5FE1A916BBC004C9748 /* 20c_2011_Women.JPG */; };
+		AEC5E6641A916BBC004C9748 /* 20c_2013_centenary_canberra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E5FF1A916BBC004C9748 /* 20c_2013_centenary_canberra.jpg */; };
+		AEC5E6651A916BBC004C9748 /* 20c_Standard_1966-1985_1988_1994.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6001A916BBC004C9748 /* 20c_Standard_1966-1985_1988_1994.jpg */; };
+		AEC5E6661A916BBC004C9748 /* 20c_Standard_1996-2001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6011A916BBC004C9748 /* 20c_Standard_1996-2001.jpg */; };
+		AEC5E6671A916BBC004C9748 /* 20c_Standard_2002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6021A916BBC004C9748 /* 20c_Standard_2002.jpg */; };
+		AEC5E6681A916BBC004C9748 /* 20c_Standard_2004-2005.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6031A916BBC004C9748 /* 20c_Standard_2004-2005.jpg */; };
+		AEC5E6691A916BBC004C9748 /* 20c_Standard_2006-2010.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6041A916BBC004C9748 /* 20c_Standard_2006-2010.jpg */; };
+		AEC5E66A1A916BBC004C9748 /* 20c_Standard_2011-2014.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6051A916BBC004C9748 /* 20c_Standard_2011-2014.jpg */; };
+		AEC5E66B1A916BBC004C9748 /* 50c_1966.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6071A916BBC004C9748 /* 50c_1966.jpg */; };
+		AEC5E66C1A916BBC004C9748 /* 50c_1969.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6081A916BBC004C9748 /* 50c_1969.jpg */; };
+		AEC5E66D1A916BBC004C9748 /* 50c_1970.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6091A916BBC004C9748 /* 50c_1970.jpg */; };
+		AEC5E66E1A916BBC004C9748 /* 50c_1971-76.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E60A1A916BBC004C9748 /* 50c_1971-76.jpg */; };
+		AEC5E66F1A916BBC004C9748 /* 50c_1977.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E60B1A916BBC004C9748 /* 50c_1977.jpg */; };
+		AEC5E6701A916BBC004C9748 /* 50c_1978-81.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E60C1A916BBC004C9748 /* 50c_1978-81.jpg */; };
+		AEC5E6711A916BBC004C9748 /* 50c_1981.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E60D1A916BBC004C9748 /* 50c_1981.jpg */; };
+		AEC5E6721A916BBC004C9748 /* 50c_1982.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E60E1A916BBC004C9748 /* 50c_1982.jpg */; };
+		AEC5E6731A916BBC004C9748 /* 50c_1983-85.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E60F1A916BBC004C9748 /* 50c_1983-85.jpg */; };
+		AEC5E6741A916BBC004C9748 /* 50c_1988.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6101A916BBC004C9748 /* 50c_1988.jpg */; };
+		AEC5E6751A916BBC004C9748 /* 50c_1991.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6111A916BBC004C9748 /* 50c_1991.jpg */; };
+		AEC5E6761A916BBC004C9748 /* 50c_1993.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6121A916BBC004C9748 /* 50c_1993.jpg */; };
+		AEC5E6771A916BBC004C9748 /* 50c_1994.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6131A916BBC004C9748 /* 50c_1994.jpg */; };
+		AEC5E6781A916BBC004C9748 /* 50c_1995.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6141A916BBC004C9748 /* 50c_1995.jpg */; };
+		AEC5E6791A916BBC004C9748 /* 50c_1996-97.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6151A916BBC004C9748 /* 50c_1996-97.jpg */; };
+		AEC5E67A1A916BBC004C9748 /* 50c_1998.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6161A916BBC004C9748 /* 50c_1998.jpg */; };
+		AEC5E67B1A916BBC004C9748 /* 50c_1999.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6171A916BBC004C9748 /* 50c_1999.jpg */; };
+		AEC5E67C1A916BBC004C9748 /* 50c_2000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6181A916BBC004C9748 /* 50c_2000.jpg */; };
+		AEC5E67D1A916BBC004C9748 /* 50c_2000_royal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6191A916BBC004C9748 /* 50c_2000_royal.jpg */; };
+		AEC5E67E1A916BBC004C9748 /* 50c_2001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E61A1A916BBC004C9748 /* 50c_2001.jpg */; };
+		AEC5E67F1A916BBC004C9748 /* 50c_2001_act.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E61B1A916BBC004C9748 /* 50c_2001_act.jpg */; };
+		AEC5E6801A916BBC004C9748 /* 50c_2001_ni.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E61C1A916BBC004C9748 /* 50c_2001_ni.jpg */; };
+		AEC5E6811A916BBC004C9748 /* 50c_2001_nsw.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E61D1A916BBC004C9748 /* 50c_2001_nsw.jpg */; };
+		AEC5E6821A916BBC004C9748 /* 50c_2001_nt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E61E1A916BBC004C9748 /* 50c_2001_nt.jpg */; };
+		AEC5E6831A916BBC004C9748 /* 50c_2001_qld.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E61F1A916BBC004C9748 /* 50c_2001_qld.jpg */; };
+		AEC5E6841A916BBC004C9748 /* 50c_2001_sa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6201A916BBC004C9748 /* 50c_2001_sa.jpg */; };
+		AEC5E6851A916BBC004C9748 /* 50c_2001_tas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6211A916BBC004C9748 /* 50c_2001_tas.jpg */; };
+		AEC5E6861A916BBC004C9748 /* 50c_2001_vic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6221A916BBC004C9748 /* 50c_2001_vic.jpg */; };
+		AEC5E6871A916BBC004C9748 /* 50c_2001_wa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6231A916BBC004C9748 /* 50c_2001_wa.jpg */; };
+		AEC5E6881A916BBC004C9748 /* 50c_2002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6241A916BBC004C9748 /* 50c_2002.jpg */; };
+		AEC5E6891A916BBC004C9748 /* 50c_2003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6251A916BBC004C9748 /* 50c_2003.jpg */; };
+		AEC5E68A1A916BBC004C9748 /* 50c_2004 standard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6261A916BBC004C9748 /* 50c_2004 standard.jpg */; };
+		AEC5E68B1A916BBC004C9748 /* 50c_2004.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6271A916BBC004C9748 /* 50c_2004.jpg */; };
+		AEC5E68C1A916BBC004C9748 /* 50c_2005_student.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6281A916BBC004C9748 /* 50c_2005_student.jpg */; };
+		AEC5E68D1A916BBC004C9748 /* 50c_2005_WWII.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6291A916BBC004C9748 /* 50c_2005_WWII.jpg */; };
+		AEC5E68E1A916BBC004C9748 /* 50c_2006-2014.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E62A1A916BBC004C9748 /* 50c_2006-2014.jpg */; };
+		AEC5E68F1A916BBC004C9748 /* 50c_2010_australiaday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E62B1A916BBC004C9748 /* 50c_2010_australiaday.jpg */; };
+		AEC5E6901A916BBC004C9748 /* 50c_2014_CIRC AIATSIS_REV.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E62C1A916BBC004C9748 /* 50c_2014_CIRC AIATSIS_REV.jpg */; };
+		AEC5E6911A916BBC004C9748 /* onedollar_1984-1985.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E62E1A916BBC004C9748 /* onedollar_1984-1985.jpg */; };
+		AEC5E6921A916BBC004C9748 /* onedollar_1986_peace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E62F1A916BBC004C9748 /* onedollar_1986_peace.jpg */; };
+		AEC5E6931A916BBC004C9748 /* onedollar_1988_bicent_kanga.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6301A916BBC004C9748 /* onedollar_1988_bicent_kanga.jpg */; };
+		AEC5E6941A916BBC004C9748 /* onedollar_1992.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6311A916BBC004C9748 /* onedollar_1992.jpg */; };
+		AEC5E6951A916BBC004C9748 /* onedollar_1993_landcare.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6321A916BBC004C9748 /* onedollar_1993_landcare.jpg */; };
+		AEC5E6961A916BBC004C9748 /* onedollar_1994-1995.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6331A916BBC004C9748 /* onedollar_1994-1995.jpg */; };
+		AEC5E6971A916BBC004C9748 /* onedollar_1996_parkes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6341A916BBC004C9748 /* onedollar_1996_parkes.jpg */; };
+		AEC5E6981A916BBC004C9748 /* onedollar_1997_kingsford.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6351A916BBC004C9748 /* onedollar_1997_kingsford.jpg */; };
+		AEC5E6991A916BBC004C9748 /* onedollar_1998.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6361A916BBC004C9748 /* onedollar_1998.jpg */; };
+		AEC5E69A1A916BBC004C9748 /* onedollar_1999_IYOP.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6371A916BBC004C9748 /* onedollar_1999_IYOP.jpg */; };
+		AEC5E69B1A916BBC004C9748 /* onedollar_2000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6381A916BBC004C9748 /* onedollar_2000.jpg */; };
+		AEC5E69C1A916BBC004C9748 /* onedollar_2001_fed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6391A916BBC004C9748 /* onedollar_2001_fed.jpg */; };
+		AEC5E69D1A916BBC004C9748 /* onedollar_2001_IYV.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E63A1A916BBC004C9748 /* onedollar_2001_IYV.jpg */; };
+		AEC5E69E1A916BBC004C9748 /* onedollar_2002_outback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E63B1A916BBC004C9748 /* onedollar_2002_outback.jpg */; };
+		AEC5E69F1A916BBC004C9748 /* onedollar_2003_sufferage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E63C1A916BBC004C9748 /* onedollar_2003_sufferage.jpg */; };
+		AEC5E6A01A916BBC004C9748 /* onedollar_2003_volunteers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E63D1A916BBC004C9748 /* onedollar_2003_volunteers.jpg */; };
+		AEC5E6A11A916BBC004C9748 /* onedollar_2004-05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E63E1A916BBC004C9748 /* onedollar_2004-05.jpg */; };
+		AEC5E6A21A916BBC004C9748 /* onedollar_2005_wwII.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E63F1A916BBC004C9748 /* onedollar_2005_wwII.jpg */; };
+		AEC5E6A31A916BBC004C9748 /* onedollar_2006.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6401A916BBC004C9748 /* onedollar_2006.jpg */; };
+		AEC5E6A41A916BBC004C9748 /* onedollar_2007_apec.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6411A916BBC004C9748 /* onedollar_2007_apec.jpg */; };
+		AEC5E6A51A916BBC004C9748 /* onedollar_2008.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6421A916BBC004C9748 /* onedollar_2008.jpg */; };
+		AEC5E6A61A916BBC004C9748 /* onedollar_2008_scout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6431A916BBC004C9748 /* onedollar_2008_scout.jpg */; };
+		AEC5E6A71A916BBC004C9748 /* onedollar_2009-2010.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6441A916BBC004C9748 /* onedollar_2009-2010.jpg */; };
+		AEC5E6A81A916BBC004C9748 /* onedollar_2009_pension.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6451A916BBC004C9748 /* onedollar_2009_pension.jpg */; };
+		AEC5E6A91A916BBC004C9748 /* onedollar_2010_girlguides.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6461A916BBC004C9748 /* onedollar_2010_girlguides.jpg */; };
+		AEC5E6AA1A916BBC004C9748 /* onedollar_2011.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6471A916BBC004C9748 /* onedollar_2011.jpg */; };
+		AEC5E6AB1A916BBC004C9748 /* onedollar_2011_CHOGM.JPG in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6481A916BBC004C9748 /* onedollar_2011_CHOGM.JPG */; };
+		AEC5E6AC1A916BBC004C9748 /* onedollar_2013-2014.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6491A916BBC004C9748 /* onedollar_2013-2014.jpg */; };
+		AEC5E6AD1A916BBC004C9748 /* onedollar_2014_ANZAC circ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E64A1A916BBC004C9748 /* onedollar_2014_ANZAC circ.jpg */; };
+		AEC5E6AE1A916BBC004C9748 /* twodollars_1988-1989.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E64C1A916BBC004C9748 /* twodollars_1988-1989.jpg */; };
+		AEC5E6AF1A916BBC004C9748 /* twodollars_1990.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E64D1A916BBC004C9748 /* twodollars_1990.jpg */; };
+		AEC5E6B01A916BBC004C9748 /* twodollars_1992-2014.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E64E1A916BBC004C9748 /* twodollars_1992-2014.jpg */; };
+		AEC5E6B11A916BBC004C9748 /* twodollars_2012_poppy_colour.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E64F1A916BBC004C9748 /* twodollars_2012_poppy_colour.jpg */; };
+		AEC5E6B21A916BBC004C9748 /* twodollars_2012_poppy_nocolour.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6501A916BBC004C9748 /* twodollars_2012_poppy_nocolour.jpg */; };
+		AEC5E6B31A916BBC004C9748 /* twodollars_2013_coronation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6511A916BBC004C9748 /* twodollars_2013_coronation.jpg */; };
+		AEC5E6B41A916BBC004C9748 /* twodollars_2014_CIRC Remembrance day_REV sm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC5E6521A916BBC004C9748 /* twodollars_2014_CIRC Remembrance day_REV sm.jpg */; };
 		AED718FB1A901F5A0020867B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AED718FA1A901F5A0020867B /* main.m */; };
 		AED718FE1A901F5A0020867B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AED718FD1A901F5A0020867B /* AppDelegate.m */; };
 		AED719011A901F5A0020867B /* AU_Coins.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AED718FF1A901F5A0020867B /* AU_Coins.xcdatamodeld */; };
-		AED719041A901F5A0020867B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AED719031A901F5A0020867B /* ViewController.m */; };
 		AED719071A901F5A0020867B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED719051A901F5A0020867B /* Main.storyboard */; };
 		AED719091A901F5A0020867B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AED719081A901F5A0020867B /* Images.xcassets */; };
 		AED7190C1A901F5A0020867B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AED7190A1A901F5A0020867B /* LaunchScreen.xib */; };
 		AED719181A901F5A0020867B /* AU_CoinsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AED719171A901F5A0020867B /* AU_CoinsTests.m */; };
+		AED719221A902F570020867B /* CoinsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AED719211A902F570020867B /* CoinsTableViewCell.xib */; };
+		AED719251A9035950020867B /* MyCollectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AED719241A9035950020867B /* MyCollectionTableViewController.m */; };
+		AED719281A90361F0020867B /* CoinsListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AED719271A90361F0020867B /* CoinsListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +134,131 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE24A8501A970F5A009C7238 /* CoinDetailsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinDetailsTableViewController.h; sourceTree = "<group>"; };
+		AE24A8511A970F5A009C7238 /* CoinDetailsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoinDetailsTableViewController.m; sourceTree = "<group>"; };
+		AE5B7F2E1AA2B82700E0682B /* MyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyData.h; sourceTree = "<group>"; };
+		AE5B7F2F1AA2B82700E0682B /* MyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyData.m; sourceTree = "<group>"; };
+		AEB932C01AAD58B300270937 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		AEB932C11AAD58B300270937 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		AEB932C21AAD58B300270937 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		AEB932C61AAD65E300270937 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AEBE275F1AAA91C600B7428B /* CoinImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinImageViewController.h; sourceTree = "<group>"; };
+		AEBE27601AAA91C600B7428B /* CoinImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoinImageViewController.m; sourceTree = "<group>"; };
+		AEC5E5EE1A916BBC004C9748 /* 20c_1995_unitednations.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 20c_1995_unitednations.jpg; path = "20 cents/20c_1995_unitednations.jpg"; sourceTree = "<group>"; };
+		AEC5E5EF1A916BBC004C9748 /* 20c_2001_ACT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20c_2001_ACT.jpg; sourceTree = "<group>"; };
+		AEC5E5F01A916BBC004C9748 /* 20c_2001_bradman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20c_2001_bradman.jpg; sourceTree = "<group>"; };
+		AEC5E5F11A916BBC004C9748 /* 20c_2001_NI.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20c_2001_NI.jpg; sourceTree = "<group>"; };
+		AEC5E5F21A916BBC004C9748 /* 20c_2001_NSW.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20c_2001_NSW.jpg; sourceTree = "<group>"; };
+		AEC5E5F31A916BBC004C9748 /* 20c_2001_NT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20c_2001_NT.jpg; sourceTree = "<group>"; };
+		AEC5E5F41A916BBC004C9748 /* 20c_2001_QLD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20c_2001_QLD.jpg; sourceTree = "<group>"; };
+		AEC5E5F51A916BBC004C9748 /* 20c_2001_SA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20c_2001_SA.jpg; sourceTree = "<group>"; };
+		AEC5E5F61A916BBC004C9748 /* 20c_2001_TAS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20c_2001_TAS.jpg; sourceTree = "<group>"; };
+		AEC5E5F71A916BBC004C9748 /* 20c_2001_VIC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20c_2001_VIC.jpg; sourceTree = "<group>"; };
+		AEC5E5F81A916BBC004C9748 /* 20c_2001_WA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20c_2001_WA.jpg; sourceTree = "<group>"; };
+		AEC5E5F91A916BBC004C9748 /* 20c_2003_volunteers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20c_2003_volunteers.jpg; sourceTree = "<group>"; };
+		AEC5E5FA1A916BBC004C9748 /* 20c_2005_WWII.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20c_2005_WWII.jpg; sourceTree = "<group>"; };
+		AEC5E5FB1A916BBC004C9748 /* 20c_2010_ATO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20c_2010_ATO.jpg; sourceTree = "<group>"; };
+		AEC5E5FC1A916BBC004C9748 /* 20c_2011_ Royal.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "20c_2011_ Royal.JPG"; sourceTree = "<group>"; };
+		AEC5E5FD1A916BBC004C9748 /* 20c_2011_intyr_volunteers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20c_2011_intyr_volunteers.jpg; sourceTree = "<group>"; };
+		AEC5E5FE1A916BBC004C9748 /* 20c_2011_Women.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20c_2011_Women.JPG; sourceTree = "<group>"; };
+		AEC5E5FF1A916BBC004C9748 /* 20c_2013_centenary_canberra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20c_2013_centenary_canberra.jpg; sourceTree = "<group>"; };
+		AEC5E6001A916BBC004C9748 /* 20c_Standard_1966-1985_1988_1994.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "20c_Standard_1966-1985_1988_1994.jpg"; sourceTree = "<group>"; };
+		AEC5E6011A916BBC004C9748 /* 20c_Standard_1996-2001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "20c_Standard_1996-2001.jpg"; sourceTree = "<group>"; };
+		AEC5E6021A916BBC004C9748 /* 20c_Standard_2002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20c_Standard_2002.jpg; sourceTree = "<group>"; };
+		AEC5E6031A916BBC004C9748 /* 20c_Standard_2004-2005.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "20c_Standard_2004-2005.jpg"; sourceTree = "<group>"; };
+		AEC5E6041A916BBC004C9748 /* 20c_Standard_2006-2010.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "20c_Standard_2006-2010.jpg"; sourceTree = "<group>"; };
+		AEC5E6051A916BBC004C9748 /* 20c_Standard_2011-2014.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "20c_Standard_2011-2014.jpg"; sourceTree = "<group>"; };
+		AEC5E6071A916BBC004C9748 /* 50c_1966.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_1966.jpg; sourceTree = "<group>"; };
+		AEC5E6081A916BBC004C9748 /* 50c_1969.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_1969.jpg; sourceTree = "<group>"; };
+		AEC5E6091A916BBC004C9748 /* 50c_1970.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_1970.jpg; sourceTree = "<group>"; };
+		AEC5E60A1A916BBC004C9748 /* 50c_1971-76.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "50c_1971-76.jpg"; sourceTree = "<group>"; };
+		AEC5E60B1A916BBC004C9748 /* 50c_1977.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_1977.jpg; sourceTree = "<group>"; };
+		AEC5E60C1A916BBC004C9748 /* 50c_1978-81.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "50c_1978-81.jpg"; sourceTree = "<group>"; };
+		AEC5E60D1A916BBC004C9748 /* 50c_1981.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_1981.jpg; sourceTree = "<group>"; };
+		AEC5E60E1A916BBC004C9748 /* 50c_1982.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_1982.jpg; sourceTree = "<group>"; };
+		AEC5E60F1A916BBC004C9748 /* 50c_1983-85.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "50c_1983-85.jpg"; sourceTree = "<group>"; };
+		AEC5E6101A916BBC004C9748 /* 50c_1988.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_1988.jpg; sourceTree = "<group>"; };
+		AEC5E6111A916BBC004C9748 /* 50c_1991.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_1991.jpg; sourceTree = "<group>"; };
+		AEC5E6121A916BBC004C9748 /* 50c_1993.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_1993.jpg; sourceTree = "<group>"; };
+		AEC5E6131A916BBC004C9748 /* 50c_1994.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_1994.jpg; sourceTree = "<group>"; };
+		AEC5E6141A916BBC004C9748 /* 50c_1995.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_1995.jpg; sourceTree = "<group>"; };
+		AEC5E6151A916BBC004C9748 /* 50c_1996-97.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "50c_1996-97.jpg"; sourceTree = "<group>"; };
+		AEC5E6161A916BBC004C9748 /* 50c_1998.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_1998.jpg; sourceTree = "<group>"; };
+		AEC5E6171A916BBC004C9748 /* 50c_1999.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_1999.jpg; sourceTree = "<group>"; };
+		AEC5E6181A916BBC004C9748 /* 50c_2000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_2000.jpg; sourceTree = "<group>"; };
+		AEC5E6191A916BBC004C9748 /* 50c_2000_royal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_2000_royal.jpg; sourceTree = "<group>"; };
+		AEC5E61A1A916BBC004C9748 /* 50c_2001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_2001.jpg; sourceTree = "<group>"; };
+		AEC5E61B1A916BBC004C9748 /* 50c_2001_act.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_2001_act.jpg; sourceTree = "<group>"; };
+		AEC5E61C1A916BBC004C9748 /* 50c_2001_ni.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_2001_ni.jpg; sourceTree = "<group>"; };
+		AEC5E61D1A916BBC004C9748 /* 50c_2001_nsw.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_2001_nsw.jpg; sourceTree = "<group>"; };
+		AEC5E61E1A916BBC004C9748 /* 50c_2001_nt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_2001_nt.jpg; sourceTree = "<group>"; };
+		AEC5E61F1A916BBC004C9748 /* 50c_2001_qld.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_2001_qld.jpg; sourceTree = "<group>"; };
+		AEC5E6201A916BBC004C9748 /* 50c_2001_sa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_2001_sa.jpg; sourceTree = "<group>"; };
+		AEC5E6211A916BBC004C9748 /* 50c_2001_tas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_2001_tas.jpg; sourceTree = "<group>"; };
+		AEC5E6221A916BBC004C9748 /* 50c_2001_vic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_2001_vic.jpg; sourceTree = "<group>"; };
+		AEC5E6231A916BBC004C9748 /* 50c_2001_wa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_2001_wa.jpg; sourceTree = "<group>"; };
+		AEC5E6241A916BBC004C9748 /* 50c_2002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_2002.jpg; sourceTree = "<group>"; };
+		AEC5E6251A916BBC004C9748 /* 50c_2003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_2003.jpg; sourceTree = "<group>"; };
+		AEC5E6261A916BBC004C9748 /* 50c_2004 standard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "50c_2004 standard.jpg"; sourceTree = "<group>"; };
+		AEC5E6271A916BBC004C9748 /* 50c_2004.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_2004.jpg; sourceTree = "<group>"; };
+		AEC5E6281A916BBC004C9748 /* 50c_2005_student.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_2005_student.jpg; sourceTree = "<group>"; };
+		AEC5E6291A916BBC004C9748 /* 50c_2005_WWII.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_2005_WWII.jpg; sourceTree = "<group>"; };
+		AEC5E62A1A916BBC004C9748 /* 50c_2006-2014.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "50c_2006-2014.jpg"; sourceTree = "<group>"; };
+		AEC5E62B1A916BBC004C9748 /* 50c_2010_australiaday.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c_2010_australiaday.jpg; sourceTree = "<group>"; };
+		AEC5E62C1A916BBC004C9748 /* 50c_2014_CIRC AIATSIS_REV.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "50c_2014_CIRC AIATSIS_REV.jpg"; sourceTree = "<group>"; };
+		AEC5E62E1A916BBC004C9748 /* onedollar_1984-1985.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "onedollar_1984-1985.jpg"; sourceTree = "<group>"; };
+		AEC5E62F1A916BBC004C9748 /* onedollar_1986_peace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onedollar_1986_peace.jpg; sourceTree = "<group>"; };
+		AEC5E6301A916BBC004C9748 /* onedollar_1988_bicent_kanga.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onedollar_1988_bicent_kanga.jpg; sourceTree = "<group>"; };
+		AEC5E6311A916BBC004C9748 /* onedollar_1992.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onedollar_1992.jpg; sourceTree = "<group>"; };
+		AEC5E6321A916BBC004C9748 /* onedollar_1993_landcare.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onedollar_1993_landcare.jpg; sourceTree = "<group>"; };
+		AEC5E6331A916BBC004C9748 /* onedollar_1994-1995.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "onedollar_1994-1995.jpg"; sourceTree = "<group>"; };
+		AEC5E6341A916BBC004C9748 /* onedollar_1996_parkes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onedollar_1996_parkes.jpg; sourceTree = "<group>"; };
+		AEC5E6351A916BBC004C9748 /* onedollar_1997_kingsford.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onedollar_1997_kingsford.jpg; sourceTree = "<group>"; };
+		AEC5E6361A916BBC004C9748 /* onedollar_1998.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onedollar_1998.jpg; sourceTree = "<group>"; };
+		AEC5E6371A916BBC004C9748 /* onedollar_1999_IYOP.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onedollar_1999_IYOP.jpg; sourceTree = "<group>"; };
+		AEC5E6381A916BBC004C9748 /* onedollar_2000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onedollar_2000.jpg; sourceTree = "<group>"; };
+		AEC5E6391A916BBC004C9748 /* onedollar_2001_fed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onedollar_2001_fed.jpg; sourceTree = "<group>"; };
+		AEC5E63A1A916BBC004C9748 /* onedollar_2001_IYV.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onedollar_2001_IYV.jpg; sourceTree = "<group>"; };
+		AEC5E63B1A916BBC004C9748 /* onedollar_2002_outback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onedollar_2002_outback.jpg; sourceTree = "<group>"; };
+		AEC5E63C1A916BBC004C9748 /* onedollar_2003_sufferage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onedollar_2003_sufferage.jpg; sourceTree = "<group>"; };
+		AEC5E63D1A916BBC004C9748 /* onedollar_2003_volunteers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onedollar_2003_volunteers.jpg; sourceTree = "<group>"; };
+		AEC5E63E1A916BBC004C9748 /* onedollar_2004-05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "onedollar_2004-05.jpg"; sourceTree = "<group>"; };
+		AEC5E63F1A916BBC004C9748 /* onedollar_2005_wwII.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onedollar_2005_wwII.jpg; sourceTree = "<group>"; };
+		AEC5E6401A916BBC004C9748 /* onedollar_2006.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onedollar_2006.jpg; sourceTree = "<group>"; };
+		AEC5E6411A916BBC004C9748 /* onedollar_2007_apec.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onedollar_2007_apec.jpg; sourceTree = "<group>"; };
+		AEC5E6421A916BBC004C9748 /* onedollar_2008.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onedollar_2008.jpg; sourceTree = "<group>"; };
+		AEC5E6431A916BBC004C9748 /* onedollar_2008_scout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onedollar_2008_scout.jpg; sourceTree = "<group>"; };
+		AEC5E6441A916BBC004C9748 /* onedollar_2009-2010.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "onedollar_2009-2010.jpg"; sourceTree = "<group>"; };
+		AEC5E6451A916BBC004C9748 /* onedollar_2009_pension.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onedollar_2009_pension.jpg; sourceTree = "<group>"; };
+		AEC5E6461A916BBC004C9748 /* onedollar_2010_girlguides.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onedollar_2010_girlguides.jpg; sourceTree = "<group>"; };
+		AEC5E6471A916BBC004C9748 /* onedollar_2011.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onedollar_2011.jpg; sourceTree = "<group>"; };
+		AEC5E6481A916BBC004C9748 /* onedollar_2011_CHOGM.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onedollar_2011_CHOGM.JPG; sourceTree = "<group>"; };
+		AEC5E6491A916BBC004C9748 /* onedollar_2013-2014.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "onedollar_2013-2014.jpg"; sourceTree = "<group>"; };
+		AEC5E64A1A916BBC004C9748 /* onedollar_2014_ANZAC circ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "onedollar_2014_ANZAC circ.jpg"; sourceTree = "<group>"; };
+		AEC5E64C1A916BBC004C9748 /* twodollars_1988-1989.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "twodollars_1988-1989.jpg"; sourceTree = "<group>"; };
+		AEC5E64D1A916BBC004C9748 /* twodollars_1990.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twodollars_1990.jpg; sourceTree = "<group>"; };
+		AEC5E64E1A916BBC004C9748 /* twodollars_1992-2014.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "twodollars_1992-2014.jpg"; sourceTree = "<group>"; };
+		AEC5E64F1A916BBC004C9748 /* twodollars_2012_poppy_colour.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twodollars_2012_poppy_colour.jpg; sourceTree = "<group>"; };
+		AEC5E6501A916BBC004C9748 /* twodollars_2012_poppy_nocolour.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twodollars_2012_poppy_nocolour.jpg; sourceTree = "<group>"; };
+		AEC5E6511A916BBC004C9748 /* twodollars_2013_coronation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twodollars_2013_coronation.jpg; sourceTree = "<group>"; };
+		AEC5E6521A916BBC004C9748 /* twodollars_2014_CIRC Remembrance day_REV sm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "twodollars_2014_CIRC Remembrance day_REV sm.jpg"; sourceTree = "<group>"; };
 		AED718F51A901F5A0020867B /* AU Coins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AU Coins.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AED718F91A901F5A0020867B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AED718FA1A901F5A0020867B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AED718FC1A901F5A0020867B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AED718FD1A901F5A0020867B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AED719001A901F5A0020867B /* AU_Coins.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AU_Coins.xcdatamodel; sourceTree = "<group>"; };
-		AED719021A901F5A0020867B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AED719031A901F5A0020867B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AED719061A901F5A0020867B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AED719081A901F5A0020867B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AED7190B1A901F5A0020867B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AED719111A901F5A0020867B /* AU CoinsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AU CoinsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AED719161A901F5A0020867B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AED719171A901F5A0020867B /* AU_CoinsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AU_CoinsTests.m; sourceTree = "<group>"; };
+		AED719211A902F570020867B /* CoinsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoinsTableViewCell.xib; sourceTree = "<group>"; };
+		AED719231A9035950020867B /* MyCollectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionTableViewController.h; sourceTree = "<group>"; };
+		AED719241A9035950020867B /* MyCollectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionTableViewController.m; sourceTree = "<group>"; };
+		AED719261A90361F0020867B /* CoinsListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinsListTableViewController.h; sourceTree = "<group>"; };
+		AED719271A90361F0020867B /* CoinsListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoinsListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +266,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEB932C71AAD65E300270937 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +280,193 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE5B7F311AA2B9BC00E0682B /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				AED719211A902F570020867B /* CoinsTableViewCell.xib */,
+				AED719051A901F5A0020867B /* Main.storyboard */,
+				AED7190A1A901F5A0020867B /* LaunchScreen.xib */,
+				AEB932C21AAD58B300270937 /* MenuViewController.xib */,
+			);
+			name = Xib;
+			sourceTree = "<group>";
+		};
+		AEB932C51AAD58BF00270937 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				AEB932C01AAD58B300270937 /* MenuViewController.h */,
+				AEB932C11AAD58B300270937 /* MenuViewController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		AEB932C81AAD65E700270937 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				AEB932C61AAD65E300270937 /* QuartzCore.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		AEBE275B1AAA7EF200B7428B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AE24A8501A970F5A009C7238 /* CoinDetailsTableViewController.h */,
+				AE24A8511A970F5A009C7238 /* CoinDetailsTableViewController.m */,
+				AED719261A90361F0020867B /* CoinsListTableViewController.h */,
+				AED719271A90361F0020867B /* CoinsListTableViewController.m */,
+				AED719231A9035950020867B /* MyCollectionTableViewController.h */,
+				AED719241A9035950020867B /* MyCollectionTableViewController.m */,
+				AEBE275F1AAA91C600B7428B /* CoinImageViewController.h */,
+				AEBE27601AAA91C600B7428B /* CoinImageViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		AEC5E5EC1A916BBC004C9748 /* Coins Images */ = {
+			isa = PBXGroup;
+			children = (
+				AEC5E5EE1A916BBC004C9748 /* 20c_1995_unitednations.jpg */,
+				AEC5E5ED1A916BBC004C9748 /* 20 cents */,
+				AEC5E6061A916BBC004C9748 /* 50 cents */,
+				AEC5E62D1A916BBC004C9748 /* one dollar */,
+				AEC5E64B1A916BBC004C9748 /* two dollars */,
+			);
+			path = "Coins Images";
+			sourceTree = "<group>";
+		};
+		AEC5E5ED1A916BBC004C9748 /* 20 cents */ = {
+			isa = PBXGroup;
+			children = (
+				AEC5E5EF1A916BBC004C9748 /* 20c_2001_ACT.jpg */,
+				AEC5E5F01A916BBC004C9748 /* 20c_2001_bradman.jpg */,
+				AEC5E5F11A916BBC004C9748 /* 20c_2001_NI.jpg */,
+				AEC5E5F21A916BBC004C9748 /* 20c_2001_NSW.jpg */,
+				AEC5E5F31A916BBC004C9748 /* 20c_2001_NT.jpg */,
+				AEC5E5F41A916BBC004C9748 /* 20c_2001_QLD.jpg */,
+				AEC5E5F51A916BBC004C9748 /* 20c_2001_SA.jpg */,
+				AEC5E5F61A916BBC004C9748 /* 20c_2001_TAS.jpg */,
+				AEC5E5F71A916BBC004C9748 /* 20c_2001_VIC.jpg */,
+				AEC5E5F81A916BBC004C9748 /* 20c_2001_WA.jpg */,
+				AEC5E5F91A916BBC004C9748 /* 20c_2003_volunteers.jpg */,
+				AEC5E5FA1A916BBC004C9748 /* 20c_2005_WWII.jpg */,
+				AEC5E5FB1A916BBC004C9748 /* 20c_2010_ATO.jpg */,
+				AEC5E5FC1A916BBC004C9748 /* 20c_2011_ Royal.JPG */,
+				AEC5E5FD1A916BBC004C9748 /* 20c_2011_intyr_volunteers.jpg */,
+				AEC5E5FE1A916BBC004C9748 /* 20c_2011_Women.JPG */,
+				AEC5E5FF1A916BBC004C9748 /* 20c_2013_centenary_canberra.jpg */,
+				AEC5E6001A916BBC004C9748 /* 20c_Standard_1966-1985_1988_1994.jpg */,
+				AEC5E6011A916BBC004C9748 /* 20c_Standard_1996-2001.jpg */,
+				AEC5E6021A916BBC004C9748 /* 20c_Standard_2002.jpg */,
+				AEC5E6031A916BBC004C9748 /* 20c_Standard_2004-2005.jpg */,
+				AEC5E6041A916BBC004C9748 /* 20c_Standard_2006-2010.jpg */,
+				AEC5E6051A916BBC004C9748 /* 20c_Standard_2011-2014.jpg */,
+			);
+			path = "20 cents";
+			sourceTree = "<group>";
+		};
+		AEC5E6061A916BBC004C9748 /* 50 cents */ = {
+			isa = PBXGroup;
+			children = (
+				AEC5E6071A916BBC004C9748 /* 50c_1966.jpg */,
+				AEC5E6081A916BBC004C9748 /* 50c_1969.jpg */,
+				AEC5E6091A916BBC004C9748 /* 50c_1970.jpg */,
+				AEC5E60A1A916BBC004C9748 /* 50c_1971-76.jpg */,
+				AEC5E60B1A916BBC004C9748 /* 50c_1977.jpg */,
+				AEC5E60C1A916BBC004C9748 /* 50c_1978-81.jpg */,
+				AEC5E60D1A916BBC004C9748 /* 50c_1981.jpg */,
+				AEC5E60E1A916BBC004C9748 /* 50c_1982.jpg */,
+				AEC5E60F1A916BBC004C9748 /* 50c_1983-85.jpg */,
+				AEC5E6101A916BBC004C9748 /* 50c_1988.jpg */,
+				AEC5E6111A916BBC004C9748 /* 50c_1991.jpg */,
+				AEC5E6121A916BBC004C9748 /* 50c_1993.jpg */,
+				AEC5E6131A916BBC004C9748 /* 50c_1994.jpg */,
+				AEC5E6141A916BBC004C9748 /* 50c_1995.jpg */,
+				AEC5E6151A916BBC004C9748 /* 50c_1996-97.jpg */,
+				AEC5E6161A916BBC004C9748 /* 50c_1998.jpg */,
+				AEC5E6171A916BBC004C9748 /* 50c_1999.jpg */,
+				AEC5E6181A916BBC004C9748 /* 50c_2000.jpg */,
+				AEC5E6191A916BBC004C9748 /* 50c_2000_royal.jpg */,
+				AEC5E61A1A916BBC004C9748 /* 50c_2001.jpg */,
+				AEC5E61B1A916BBC004C9748 /* 50c_2001_act.jpg */,
+				AEC5E61C1A916BBC004C9748 /* 50c_2001_ni.jpg */,
+				AEC5E61D1A916BBC004C9748 /* 50c_2001_nsw.jpg */,
+				AEC5E61E1A916BBC004C9748 /* 50c_2001_nt.jpg */,
+				AEC5E61F1A916BBC004C9748 /* 50c_2001_qld.jpg */,
+				AEC5E6201A916BBC004C9748 /* 50c_2001_sa.jpg */,
+				AEC5E6211A916BBC004C9748 /* 50c_2001_tas.jpg */,
+				AEC5E6221A916BBC004C9748 /* 50c_2001_vic.jpg */,
+				AEC5E6231A916BBC004C9748 /* 50c_2001_wa.jpg */,
+				AEC5E6241A916BBC004C9748 /* 50c_2002.jpg */,
+				AEC5E6251A916BBC004C9748 /* 50c_2003.jpg */,
+				AEC5E6261A916BBC004C9748 /* 50c_2004 standard.jpg */,
+				AEC5E6271A916BBC004C9748 /* 50c_2004.jpg */,
+				AEC5E6281A916BBC004C9748 /* 50c_2005_student.jpg */,
+				AEC5E6291A916BBC004C9748 /* 50c_2005_WWII.jpg */,
+				AEC5E62A1A916BBC004C9748 /* 50c_2006-2014.jpg */,
+				AEC5E62B1A916BBC004C9748 /* 50c_2010_australiaday.jpg */,
+				AEC5E62C1A916BBC004C9748 /* 50c_2014_CIRC AIATSIS_REV.jpg */,
+			);
+			path = "50 cents";
+			sourceTree = "<group>";
+		};
+		AEC5E62D1A916BBC004C9748 /* one dollar */ = {
+			isa = PBXGroup;
+			children = (
+				AEC5E62E1A916BBC004C9748 /* onedollar_1984-1985.jpg */,
+				AEC5E62F1A916BBC004C9748 /* onedollar_1986_peace.jpg */,
+				AEC5E6301A916BBC004C9748 /* onedollar_1988_bicent_kanga.jpg */,
+				AEC5E6311A916BBC004C9748 /* onedollar_1992.jpg */,
+				AEC5E6321A916BBC004C9748 /* onedollar_1993_landcare.jpg */,
+				AEC5E6331A916BBC004C9748 /* onedollar_1994-1995.jpg */,
+				AEC5E6341A916BBC004C9748 /* onedollar_1996_parkes.jpg */,
+				AEC5E6351A916BBC004C9748 /* onedollar_1997_kingsford.jpg */,
+				AEC5E6361A916BBC004C9748 /* onedollar_1998.jpg */,
+				AEC5E6371A916BBC004C9748 /* onedollar_1999_IYOP.jpg */,
+				AEC5E6381A916BBC004C9748 /* onedollar_2000.jpg */,
+				AEC5E6391A916BBC004C9748 /* onedollar_2001_fed.jpg */,
+				AEC5E63A1A916BBC004C9748 /* onedollar_2001_IYV.jpg */,
+				AEC5E63B1A916BBC004C9748 /* onedollar_2002_outback.jpg */,
+				AEC5E63C1A916BBC004C9748 /* onedollar_2003_sufferage.jpg */,
+				AEC5E63D1A916BBC004C9748 /* onedollar_2003_volunteers.jpg */,
+				AEC5E63E1A916BBC004C9748 /* onedollar_2004-05.jpg */,
+				AEC5E63F1A916BBC004C9748 /* onedollar_2005_wwII.jpg */,
+				AEC5E6401A916BBC004C9748 /* onedollar_2006.jpg */,
+				AEC5E6411A916BBC004C9748 /* onedollar_2007_apec.jpg */,
+				AEC5E6421A916BBC004C9748 /* onedollar_2008.jpg */,
+				AEC5E6431A916BBC004C9748 /* onedollar_2008_scout.jpg */,
+				AEC5E6441A916BBC004C9748 /* onedollar_2009-2010.jpg */,
+				AEC5E6451A916BBC004C9748 /* onedollar_2009_pension.jpg */,
+				AEC5E6461A916BBC004C9748 /* onedollar_2010_girlguides.jpg */,
+				AEC5E6471A916BBC004C9748 /* onedollar_2011.jpg */,
+				AEC5E6481A916BBC004C9748 /* onedollar_2011_CHOGM.JPG */,
+				AEC5E6491A916BBC004C9748 /* onedollar_2013-2014.jpg */,
+				AEC5E64A1A916BBC004C9748 /* onedollar_2014_ANZAC circ.jpg */,
+			);
+			path = "one dollar";
+			sourceTree = "<group>";
+		};
+		AEC5E64B1A916BBC004C9748 /* two dollars */ = {
+			isa = PBXGroup;
+			children = (
+				AEC5E64C1A916BBC004C9748 /* twodollars_1988-1989.jpg */,
+				AEC5E64D1A916BBC004C9748 /* twodollars_1990.jpg */,
+				AEC5E64E1A916BBC004C9748 /* twodollars_1992-2014.jpg */,
+				AEC5E64F1A916BBC004C9748 /* twodollars_2012_poppy_colour.jpg */,
+				AEC5E6501A916BBC004C9748 /* twodollars_2012_poppy_nocolour.jpg */,
+				AEC5E6511A916BBC004C9748 /* twodollars_2013_coronation.jpg */,
+				AEC5E6521A916BBC004C9748 /* twodollars_2014_CIRC Remembrance day_REV sm.jpg */,
+			);
+			path = "two dollars";
+			sourceTree = "<group>";
+		};
 		AED718EC1A901F5A0020867B = {
 			isa = PBXGroup;
 			children = (
 				AED718F71A901F5A0020867B /* AU Coins */,
 				AED719141A901F5A0020867B /* AU CoinsTests */,
 				AED718F61A901F5A0020867B /* Products */,
+				AEB932C81AAD65E700270937 /* Framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,13 +482,15 @@
 		AED718F71A901F5A0020867B /* AU Coins */ = {
 			isa = PBXGroup;
 			children = (
+				AEC5E5EC1A916BBC004C9748 /* Coins Images */,
 				AED718FC1A901F5A0020867B /* AppDelegate.h */,
 				AED718FD1A901F5A0020867B /* AppDelegate.m */,
-				AED719021A901F5A0020867B /* ViewController.h */,
-				AED719031A901F5A0020867B /* ViewController.m */,
-				AED719051A901F5A0020867B /* Main.storyboard */,
+				AE5B7F2E1AA2B82700E0682B /* MyData.h */,
+				AE5B7F2F1AA2B82700E0682B /* MyData.m */,
+				AEBE275B1AAA7EF200B7428B /* Main */,
+				AEB932C51AAD58BF00270937 /* Menu */,
+				AE5B7F311AA2B9BC00E0682B /* Xib */,
 				AED719081A901F5A0020867B /* Images.xcassets */,
-				AED7190A1A901F5A0020867B /* LaunchScreen.xib */,
 				AED718FF1A901F5A0020867B /* AU_Coins.xcdatamodeld */,
 				AED718F81A901F5A0020867B /* Supporting Files */,
 			);
@@ -171,6 +572,7 @@
 				TargetAttributes = {
 					AED718F41A901F5A0020867B = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 52343NK2S3;
 					};
 					AED719101A901F5A0020867B = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -202,9 +604,109 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEC5E6551A916BBC004C9748 /* 20c_2001_bradman.jpg in Resources */,
+				AEC5E6AD1A916BBC004C9748 /* onedollar_2014_ANZAC circ.jpg in Resources */,
+				AEC5E6961A916BBC004C9748 /* onedollar_1994-1995.jpg in Resources */,
+				AEC5E65F1A916BBC004C9748 /* 20c_2005_WWII.jpg in Resources */,
 				AED719071A901F5A0020867B /* Main.storyboard in Resources */,
+				AEC5E6871A916BBC004C9748 /* 50c_2001_wa.jpg in Resources */,
+				AEC5E6621A916BBC004C9748 /* 20c_2011_intyr_volunteers.jpg in Resources */,
+				AEC5E6601A916BBC004C9748 /* 20c_2010_ATO.jpg in Resources */,
+				AEC5E6541A916BBC004C9748 /* 20c_2001_ACT.jpg in Resources */,
+				AEC5E6A11A916BBC004C9748 /* onedollar_2004-05.jpg in Resources */,
+				AEC5E6941A916BBC004C9748 /* onedollar_1992.jpg in Resources */,
+				AEC5E6A81A916BBC004C9748 /* onedollar_2009_pension.jpg in Resources */,
+				AEC5E6561A916BBC004C9748 /* 20c_2001_NI.jpg in Resources */,
+				AEC5E6651A916BBC004C9748 /* 20c_Standard_1966-1985_1988_1994.jpg in Resources */,
+				AEC5E6641A916BBC004C9748 /* 20c_2013_centenary_canberra.jpg in Resources */,
+				AEC5E6A71A916BBC004C9748 /* onedollar_2009-2010.jpg in Resources */,
+				AEC5E6581A916BBC004C9748 /* 20c_2001_NT.jpg in Resources */,
+				AEC5E6701A916BBC004C9748 /* 50c_1978-81.jpg in Resources */,
+				AEC5E6671A916BBC004C9748 /* 20c_Standard_2002.jpg in Resources */,
+				AEC5E65E1A916BBC004C9748 /* 20c_2003_volunteers.jpg in Resources */,
+				AEC5E65D1A916BBC004C9748 /* 20c_2001_WA.jpg in Resources */,
+				AEC5E67C1A916BBC004C9748 /* 50c_2000.jpg in Resources */,
+				AEC5E6891A916BBC004C9748 /* 50c_2003.jpg in Resources */,
+				AEC5E69C1A916BBC004C9748 /* onedollar_2001_fed.jpg in Resources */,
+				AEC5E6A51A916BBC004C9748 /* onedollar_2008.jpg in Resources */,
+				AEC5E66A1A916BBC004C9748 /* 20c_Standard_2011-2014.jpg in Resources */,
+				AEC5E6A91A916BBC004C9748 /* onedollar_2010_girlguides.jpg in Resources */,
+				AEC5E68A1A916BBC004C9748 /* 50c_2004 standard.jpg in Resources */,
+				AEC5E69B1A916BBC004C9748 /* onedollar_2000.jpg in Resources */,
+				AEC5E6811A916BBC004C9748 /* 50c_2001_nsw.jpg in Resources */,
+				AEC5E6691A916BBC004C9748 /* 20c_Standard_2006-2010.jpg in Resources */,
+				AEC5E6861A916BBC004C9748 /* 50c_2001_vic.jpg in Resources */,
+				AEC5E6761A916BBC004C9748 /* 50c_1993.jpg in Resources */,
+				AEC5E6921A916BBC004C9748 /* onedollar_1986_peace.jpg in Resources */,
+				AEC5E6571A916BBC004C9748 /* 20c_2001_NSW.jpg in Resources */,
+				AEC5E6B31A916BBC004C9748 /* twodollars_2013_coronation.jpg in Resources */,
+				AEC5E6991A916BBC004C9748 /* onedollar_1998.jpg in Resources */,
+				AEC5E6A01A916BBC004C9748 /* onedollar_2003_volunteers.jpg in Resources */,
+				AEC5E67F1A916BBC004C9748 /* 50c_2001_act.jpg in Resources */,
+				AEC5E67D1A916BBC004C9748 /* 50c_2000_royal.jpg in Resources */,
+				AEC5E6B41A916BBC004C9748 /* twodollars_2014_CIRC Remembrance day_REV sm.jpg in Resources */,
+				AEC5E6781A916BBC004C9748 /* 50c_1995.jpg in Resources */,
+				AEC5E67E1A916BBC004C9748 /* 50c_2001.jpg in Resources */,
+				AEC5E6B11A916BBC004C9748 /* twodollars_2012_poppy_colour.jpg in Resources */,
+				AEC5E6881A916BBC004C9748 /* 50c_2002.jpg in Resources */,
+				AEB932C41AAD58B300270937 /* MenuViewController.xib in Resources */,
+				AEC5E68D1A916BBC004C9748 /* 50c_2005_WWII.jpg in Resources */,
 				AED7190C1A901F5A0020867B /* LaunchScreen.xib in Resources */,
+				AEC5E69F1A916BBC004C9748 /* onedollar_2003_sufferage.jpg in Resources */,
+				AEC5E6751A916BBC004C9748 /* 50c_1991.jpg in Resources */,
+				AEC5E6731A916BBC004C9748 /* 50c_1983-85.jpg in Resources */,
+				AEC5E6721A916BBC004C9748 /* 50c_1982.jpg in Resources */,
+				AEC5E66E1A916BBC004C9748 /* 50c_1971-76.jpg in Resources */,
+				AEC5E68E1A916BBC004C9748 /* 50c_2006-2014.jpg in Resources */,
+				AEC5E6661A916BBC004C9748 /* 20c_Standard_1996-2001.jpg in Resources */,
+				AEC5E6AE1A916BBC004C9748 /* twodollars_1988-1989.jpg in Resources */,
+				AEC5E69A1A916BBC004C9748 /* onedollar_1999_IYOP.jpg in Resources */,
+				AEC5E6531A916BBC004C9748 /* 20c_1995_unitednations.jpg in Resources */,
+				AEC5E6801A916BBC004C9748 /* 50c_2001_ni.jpg in Resources */,
+				AEC5E6AB1A916BBC004C9748 /* onedollar_2011_CHOGM.JPG in Resources */,
+				AEC5E65A1A916BBC004C9748 /* 20c_2001_SA.jpg in Resources */,
+				AEC5E6791A916BBC004C9748 /* 50c_1996-97.jpg in Resources */,
+				AED719221A902F570020867B /* CoinsTableViewCell.xib in Resources */,
+				AEC5E66C1A916BBC004C9748 /* 50c_1969.jpg in Resources */,
+				AEC5E6611A916BBC004C9748 /* 20c_2011_ Royal.JPG in Resources */,
+				AEC5E6851A916BBC004C9748 /* 50c_2001_tas.jpg in Resources */,
+				AEC5E69E1A916BBC004C9748 /* onedollar_2002_outback.jpg in Resources */,
+				AEC5E6591A916BBC004C9748 /* 20c_2001_QLD.jpg in Resources */,
+				AEC5E6A31A916BBC004C9748 /* onedollar_2006.jpg in Resources */,
+				AEC5E68B1A916BBC004C9748 /* 50c_2004.jpg in Resources */,
+				AEC5E6951A916BBC004C9748 /* onedollar_1993_landcare.jpg in Resources */,
+				AEC5E68F1A916BBC004C9748 /* 50c_2010_australiaday.jpg in Resources */,
+				AEC5E6711A916BBC004C9748 /* 50c_1981.jpg in Resources */,
+				AEC5E66B1A916BBC004C9748 /* 50c_1966.jpg in Resources */,
+				AEC5E65C1A916BBC004C9748 /* 20c_2001_VIC.jpg in Resources */,
+				AEC5E6A21A916BBC004C9748 /* onedollar_2005_wwII.jpg in Resources */,
+				AEC5E6B01A916BBC004C9748 /* twodollars_1992-2014.jpg in Resources */,
+				AEC5E6821A916BBC004C9748 /* 50c_2001_nt.jpg in Resources */,
+				AEC5E69D1A916BBC004C9748 /* onedollar_2001_IYV.jpg in Resources */,
+				AEC5E66F1A916BBC004C9748 /* 50c_1977.jpg in Resources */,
+				AEC5E6A61A916BBC004C9748 /* onedollar_2008_scout.jpg in Resources */,
+				AEC5E67B1A916BBC004C9748 /* 50c_1999.jpg in Resources */,
+				AEC5E65B1A916BBC004C9748 /* 20c_2001_TAS.jpg in Resources */,
+				AEC5E6841A916BBC004C9748 /* 50c_2001_sa.jpg in Resources */,
+				AEC5E6AC1A916BBC004C9748 /* onedollar_2013-2014.jpg in Resources */,
+				AEC5E6AA1A916BBC004C9748 /* onedollar_2011.jpg in Resources */,
+				AEC5E6831A916BBC004C9748 /* 50c_2001_qld.jpg in Resources */,
+				AEC5E6971A916BBC004C9748 /* onedollar_1996_parkes.jpg in Resources */,
+				AEC5E67A1A916BBC004C9748 /* 50c_1998.jpg in Resources */,
+				AEC5E68C1A916BBC004C9748 /* 50c_2005_student.jpg in Resources */,
+				AEC5E6B21A916BBC004C9748 /* twodollars_2012_poppy_nocolour.jpg in Resources */,
 				AED719091A901F5A0020867B /* Images.xcassets in Resources */,
+				AEC5E6A41A916BBC004C9748 /* onedollar_2007_apec.jpg in Resources */,
+				AEC5E6741A916BBC004C9748 /* 50c_1988.jpg in Resources */,
+				AEC5E66D1A916BBC004C9748 /* 50c_1970.jpg in Resources */,
+				AEC5E6AF1A916BBC004C9748 /* twodollars_1990.jpg in Resources */,
+				AEC5E6631A916BBC004C9748 /* 20c_2011_Women.JPG in Resources */,
+				AEC5E6911A916BBC004C9748 /* onedollar_1984-1985.jpg in Resources */,
+				AEC5E6681A916BBC004C9748 /* 20c_Standard_2004-2005.jpg in Resources */,
+				AEC5E6981A916BBC004C9748 /* onedollar_1997_kingsford.jpg in Resources */,
+				AEC5E6901A916BBC004C9748 /* 50c_2014_CIRC AIATSIS_REV.jpg in Resources */,
+				AEC5E6771A916BBC004C9748 /* 50c_1994.jpg in Resources */,
+				AEC5E6931A916BBC004C9748 /* onedollar_1988_bicent_kanga.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,9 +725,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				AED719011A901F5A0020867B /* AU_Coins.xcdatamodeld in Sources */,
+				AEB932C31AAD58B300270937 /* MenuViewController.m in Sources */,
 				AED718FE1A901F5A0020867B /* AppDelegate.m in Sources */,
-				AED719041A901F5A0020867B /* ViewController.m in Sources */,
+				AE5B7F301AA2B82700E0682B /* MyData.m in Sources */,
 				AED718FB1A901F5A0020867B /* main.m in Sources */,
+				AED719281A90361F0020867B /* CoinsListTableViewController.m in Sources */,
+				AE24A8521A970F5A009C7238 /* CoinDetailsTableViewController.m in Sources */,
+				AED719251A9035950020867B /* MyCollectionTableViewController.m in Sources */,
+				AEBE27611AAA91C600B7428B /* CoinImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +854,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "AU Coins/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,7 +866,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "AU Coins/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +927,7 @@
 				AED7191D1A901F5A0020867B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AED7191E1A901F5A0020867B /* Build configuration list for PBXNativeTarget "AU CoinsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +936,7 @@
 				AED719201A901F5A0020867B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
