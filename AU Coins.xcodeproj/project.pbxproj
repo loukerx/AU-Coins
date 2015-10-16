@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AE24A8521A970F5A009C7238 /* CoinDetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE24A8511A970F5A009C7238 /* CoinDetailsTableViewController.m */; };
 		AE5B7F301AA2B82700E0682B /* MyData.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5B7F2F1AA2B82700E0682B /* MyData.m */; };
+		AE7A8F281BD0A94700BD114A /* TESTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7A8F271BD0A94700BD114A /* TESTTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		AEB932C31AAD58B300270937 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB932C11AAD58B300270937 /* MenuViewController.m */; };
 		AEB932C41AAD58B300270937 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEB932C21AAD58B300270937 /* MenuViewController.xib */; };
 		AEB932C71AAD65E300270937 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB932C61AAD65E300270937 /* QuartzCore.framework */; };
@@ -138,6 +139,8 @@
 		AE24A8511A970F5A009C7238 /* CoinDetailsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoinDetailsTableViewController.m; sourceTree = "<group>"; };
 		AE5B7F2E1AA2B82700E0682B /* MyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyData.h; sourceTree = "<group>"; };
 		AE5B7F2F1AA2B82700E0682B /* MyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyData.m; sourceTree = "<group>"; };
+		AE7A8F261BD0A94700BD114A /* TESTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TESTTableViewCell.h; sourceTree = "<group>"; };
+		AE7A8F271BD0A94700BD114A /* TESTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TESTTableViewCell.m; sourceTree = "<group>"; };
 		AEB932C01AAD58B300270937 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		AEB932C11AAD58B300270937 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		AEB932C21AAD58B300270937 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
@@ -319,6 +322,8 @@
 				AED719241A9035950020867B /* MyCollectionTableViewController.m */,
 				AEBE275F1AAA91C600B7428B /* CoinImageViewController.h */,
 				AEBE27601AAA91C600B7428B /* CoinImageViewController.m */,
+				AE7A8F261BD0A94700BD114A /* TESTTableViewCell.h */,
+				AE7A8F271BD0A94700BD114A /* TESTTableViewCell.m */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -733,6 +738,7 @@
 				AE24A8521A970F5A009C7238 /* CoinDetailsTableViewController.m in Sources */,
 				AED719251A9035950020867B /* MyCollectionTableViewController.m in Sources */,
 				AEBE27611AAA91C600B7428B /* CoinImageViewController.m in Sources */,
+				AE7A8F281BD0A94700BD114A /* TESTTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
