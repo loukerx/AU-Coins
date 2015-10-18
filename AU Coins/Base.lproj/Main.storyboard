@@ -912,41 +912,8 @@
                                         </tableViewCellContentView>
                                         <animations/>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="Jn5-Gz-4SI" detailTextLabel="QfQ-je-391" imageView="ykh-Oy-K3w" style="IBUITableViewCellStyleValue1" id="5rc-3x-1g6">
-                                        <rect key="frame" x="0.0" y="324" width="600" height="75"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5rc-3x-1g6" id="fJ0-4f-ukB">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="74.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="1988" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Jn5-Gz-4SI">
-                                                    <rect key="frame" x="105" y="28" width="37" height="19.5"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Production: 36.5 Million" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QfQ-je-391">
-                                                    <rect key="frame" x="413.5" y="28" width="171.5" height="19.5"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="50c_1988.jpg" id="ykh-Oy-K3w">
-                                                    <rect key="frame" x="15" y="0.0" width="75" height="74.5"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <animations/>
-                                                </imageView>
-                                            </subviews>
-                                            <animations/>
-                                        </tableViewCellContentView>
-                                        <animations/>
-                                    </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="k11-Jv-ifR" detailTextLabel="N1k-PF-jZo" imageView="zLY-cl-63d" style="IBUITableViewCellStyleValue1" id="0VH-K1-mdh">
-                                        <rect key="frame" x="0.0" y="399" width="600" height="75"/>
+                                        <rect key="frame" x="0.0" y="324" width="600" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0VH-K1-mdh" id="Acg-Bt-7aX">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="74.5"/>
@@ -979,7 +946,7 @@
                                         <animations/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="bO6-5W-tr4" detailTextLabel="dgY-Tk-QrZ" imageView="FPf-d3-QSY" style="IBUITableViewCellStyleValue1" id="Xa2-MZ-wZ4">
-                                        <rect key="frame" x="0.0" y="474" width="600" height="75"/>
+                                        <rect key="frame" x="0.0" y="399" width="600" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Xa2-MZ-wZ4" id="3VA-6Y-luA">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="74.5"/>
@@ -1012,7 +979,7 @@
                                         <animations/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="5er-9B-FqM" detailTextLabel="DlG-JF-r31" imageView="hax-Mf-nLj" style="IBUITableViewCellStyleValue1" id="cwR-0A-Yc8">
-                                        <rect key="frame" x="0.0" y="549" width="600" height="75"/>
+                                        <rect key="frame" x="0.0" y="474" width="600" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cwR-0A-Yc8" id="YeQ-gp-bPZ">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="74.5"/>
@@ -1045,7 +1012,7 @@
                                         <animations/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="uEC-2S-X9r" detailTextLabel="otr-hi-Y55" imageView="oB9-ad-AeA" style="IBUITableViewCellStyleValue1" id="pqa-u4-Uy9">
-                                        <rect key="frame" x="0.0" y="624" width="600" height="75"/>
+                                        <rect key="frame" x="0.0" y="549" width="600" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pqa-u4-Uy9" id="Xfr-X1-4jw">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="74.5"/>
@@ -1078,7 +1045,7 @@
                                         <animations/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="XuJ-ZM-TIi" detailTextLabel="Y5P-3c-cvz" imageView="lXv-1s-w2t" style="IBUITableViewCellStyleValue1" id="1kr-S7-5a5">
-                                        <rect key="frame" x="0.0" y="699" width="600" height="75"/>
+                                        <rect key="frame" x="0.0" y="624" width="600" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1kr-S7-5a5" id="TlH-sy-Q4B">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="74.5"/>
@@ -1111,7 +1078,7 @@
                                         <animations/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="Rzn-5k-LXs" detailTextLabel="Ur4-KD-zZ8" imageView="h9T-he-JGP" style="IBUITableViewCellStyleValue1" id="czk-c3-HIm">
-                                        <rect key="frame" x="0.0" y="774" width="600" height="75"/>
+                                        <rect key="frame" x="0.0" y="699" width="600" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="czk-c3-HIm" id="Iof-ur-Cqk">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="74.5"/>
@@ -1144,7 +1111,7 @@
                                         <animations/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="f8f-FV-e8L" detailTextLabel="ySM-FW-rUv" imageView="3dX-bz-FOX" style="IBUITableViewCellStyleValue1" id="K5O-FJ-hZu">
-                                        <rect key="frame" x="0.0" y="849" width="600" height="75"/>
+                                        <rect key="frame" x="0.0" y="774" width="600" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="K5O-FJ-hZu" id="d3T-CO-YS0">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="74.5"/>
@@ -1176,74 +1143,8 @@
                                         </tableViewCellContentView>
                                         <animations/>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="DNK-ab-jTH" detailTextLabel="Knd-BJ-kGI" imageView="rLF-33-R9d" style="IBUITableViewCellStyleValue1" id="JRj-Ir-OlK">
-                                        <rect key="frame" x="0.0" y="924" width="600" height="75"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JRj-Ir-OlK" id="fLV-qk-6jk">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="74.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="2001wa" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DNK-ab-jTH">
-                                                    <rect key="frame" x="105" y="28" width="56.5" height="19.5"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Production: 36.5 Million" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Knd-BJ-kGI">
-                                                    <rect key="frame" x="413.5" y="28" width="171.5" height="19.5"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="50c_2001_wa.jpg" id="rLF-33-R9d">
-                                                    <rect key="frame" x="15" y="0.0" width="75" height="74.5"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <animations/>
-                                                </imageView>
-                                            </subviews>
-                                            <animations/>
-                                        </tableViewCellContentView>
-                                        <animations/>
-                                    </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="xch-ZR-geK" detailTextLabel="zdM-is-0ap" imageView="KLN-c5-BJM" style="IBUITableViewCellStyleValue1" id="fa9-4q-8ea">
-                                        <rect key="frame" x="0.0" y="999" width="600" height="75"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fa9-4q-8ea" id="t6D-Cl-zIn">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="74.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="2003" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xch-ZR-geK">
-                                                    <rect key="frame" x="105" y="28" width="39" height="19.5"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Production: 36.5 Million" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zdM-is-0ap">
-                                                    <rect key="frame" x="413.5" y="28" width="171.5" height="19.5"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="50c_2003.jpg" id="KLN-c5-BJM">
-                                                    <rect key="frame" x="15" y="0.0" width="75" height="74.5"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <animations/>
-                                                </imageView>
-                                            </subviews>
-                                            <animations/>
-                                        </tableViewCellContentView>
-                                        <animations/>
-                                    </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="oCQ-pQ-iFl" detailTextLabel="acA-ps-OVN" imageView="XXG-sp-9Qw" style="IBUITableViewCellStyleValue1" id="orj-BY-oQW">
-                                        <rect key="frame" x="0.0" y="1074" width="600" height="75"/>
+                                        <rect key="frame" x="0.0" y="849" width="600" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="orj-BY-oQW" id="GVg-f7-tFm">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="74.5"/>
@@ -1726,7 +1627,6 @@
         <image name="50c_1966.jpg" width="125" height="125"/>
         <image name="50c_1970.jpg" width="125" height="125"/>
         <image name="50c_1983-85.jpg" width="125" height="125"/>
-        <image name="50c_1988.jpg" width="125" height="125"/>
         <image name="50c_1991.jpg" width="125" height="125"/>
         <image name="50c_1993.jpg" width="125" height="125"/>
         <image name="50c_1994.jpg" width="125" height="125"/>
@@ -1734,8 +1634,6 @@
         <image name="50c_2001_nsw.jpg" width="125" height="125"/>
         <image name="50c_2001_nt.jpg" width="125" height="123"/>
         <image name="50c_2001_sa.jpg" width="125" height="125"/>
-        <image name="50c_2001_wa.jpg" width="125" height="125"/>
-        <image name="50c_2003.jpg" width="125" height="125"/>
         <image name="50c_2006-2014.jpg" width="125" height="125"/>
         <image name="50c_face" width="40" height="40"/>
         <image name="onedollar_1992.jpg" width="125" height="125"/>
@@ -1746,6 +1644,6 @@
         <image name="twodollars_face" width="40" height="40"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="b7k-D1-6vG"/>
+        <segue reference="6BL-kb-vSE"/>
     </inferredMetricsTieBreakers>
 </document>
